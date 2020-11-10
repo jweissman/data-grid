@@ -1,10 +1,6 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+// import './style/base.less'
+// import 'antd/dist/antd.css'
+// eslint-disable-next-line no-unused-vars
 
-interface Props {
-  text: string
-}
-
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+import { DataGrid } from './DataGrid'
+export { DataGrid }
